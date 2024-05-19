@@ -107,14 +107,16 @@ a {
 } */
 
 button {
-  padding: 10px 20px;
+  padding: 2rem;
   margin-top: 10px;
-  background-color: navy;
+  background-color: rgb(133, 58, 199);
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+  margin: 2rem;
+  border: 2px solid;
 }
 
 input[type="number"] {
@@ -132,6 +134,9 @@ audio {
 
 main {
   padding: 5% 20%;
-  min-height: 80vh;
+  min-height: 90vh;
+  padding-top: 40%;
+  background: rgb(72,66,181);
+      background: radial-gradient(circle, rgba(72,66,181,1) 0%, rgba(131,131,212,1) 35%, rgba(215,117,227,0.6111694677871149) 100%);
 }
 

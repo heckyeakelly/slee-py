@@ -18,7 +18,7 @@ export default function Home() {
         'https://api.fitbit.com/1/user/-/activities/heart/date/today/today/1min.json',
         {
           headers: {
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyM1JTQ0ciLCJzdWIiOiI2TDZYV1YiLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJlY2cgcnNldCByb3h5IHJudXQgcnBybyByc2xlIHJjZiByYWN0IHJyZXMgcmxvYyByd2VpIHJociBydGVtIiwiZXhwIjoxNzE2MTI2OTc2LCJpYXQiOjE3MTYwOTgxNzZ9.pRy6Iu5dqbLBEYSF7yNHfF5YO3xcjviXpwJr_A_KHLU'
+            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyM1JTQ0ciLCJzdWIiOiI2TDZYV1YiLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJlY2cgcnNldCByb3h5IHJudXQgcnBybyByc2xlIHJjZiByYWN0IHJyZXMgcmxvYyByd2VpIHJociBydGVtIiwiZXhwIjoxNzE2MTU2Njg5LCJpYXQiOjE3MTYxMjc4ODl9.lMH_W4sNalwJJ8Uv8nega6FhnKmM653AoypWffwNEhg'
           }
         }
       );
@@ -63,9 +63,6 @@ export default function Home() {
 
   return (
     <div className={styles.mainContent}>
-      <header className={styles.header}>
-        <h1>sleePy</h1>
-      </header>
       <main>
         {/* {step === 1 && (
           <LandingScreen />
@@ -76,7 +73,7 @@ export default function Home() {
             <h2>sleePy?</h2>
             <form onSubmit={handleSubmitInput}>
               <p>Make sure your <strong>Fitbit</strong> device is on</p>
-              <button type="submit" onClick={getHeartRateData}>Get started</button>
+              <button type="submit" onClick={getHeartRateData}>Time for bed</button>
             </form>
             {heartRate && (
               <div className="heart-rate-display">
