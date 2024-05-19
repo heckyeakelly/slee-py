@@ -107,7 +107,7 @@ export default function Home() {
         )}
         {selectedSong && (
           <div>
-            <h2>Music</h2>
+            <h2>Good night!</h2>
             <p>Filename: {selectedSong}</p>
             <audio controls>
               <source src={`./assets/${decodeURIComponent(selectedSong)}`} type="audio/mpeg" />
