@@ -113,6 +113,7 @@ export default function Home() {
               <source src={`./assets/${decodeURIComponent(selectedSong)}`} type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
+            <p><strong>Next song</strong></p>
           </div>
         )}
       </main>
